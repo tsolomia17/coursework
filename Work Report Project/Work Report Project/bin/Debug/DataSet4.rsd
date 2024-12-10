@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet4">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('Dim Employee'[Employee Id], 'Dim Employee'[Full Name], 'Dim Employee'[Date Of Birth], 'Work Date'[Date Id], 'Work Date'[Date], "Hours Worked", [Hours Worked])</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Employee Id</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Employee Id]</HierarchyUniqueName>
+                    <LevelName>Employee Id</LevelName>
+                    <UniqueName>[Dim Employee].[Employee Id].[Employee Id]</UniqueName>
+                  </ID>
+                  <ItemCaption>Employee Id</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Full Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Full Name]</HierarchyUniqueName>
+                    <LevelName>Full Name</LevelName>
+                    <UniqueName>[Dim Employee].[Full Name].[Full Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Full Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Date Of Birth</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Date Of Birth]</HierarchyUniqueName>
+                    <LevelName>Date Of Birth</LevelName>
+                    <UniqueName>[Dim Employee].[Date Of Birth].[Date Of Birth]</UniqueName>
+                  </ID>
+                  <ItemCaption>Date Of Birth</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Work Date</DimensionName>
+                    <HierarchyName>Date Id</HierarchyName>
+                    <HierarchyUniqueName>[Work Date].[Date Id]</HierarchyUniqueName>
+                    <LevelName>Date Id</LevelName>
+                    <UniqueName>[Work Date].[Date Id].[Date Id]</UniqueName>
+                  </ID>
+                  <ItemCaption>Date Id</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Work Date</DimensionName>
+                    <HierarchyName>Date</HierarchyName>
+                    <HierarchyUniqueName>[Work Date].[Date]</HierarchyUniqueName>
+                    <LevelName>Date</LevelName>
+                    <UniqueName>[Work Date].[Date].[Date]</UniqueName>
+                  </ID>
+                  <ItemCaption>Date</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Hours Worked</MeasureName>
+                    <UniqueName>[Measures].[Hours Worked]</UniqueName>
+                  </ID>
+                  <ItemCaption>Hours Worked</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>Work DW</From>
+            <Filter>
+              <FilterItems />
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('Dim Employee'[Employee Id], 'Dim Employee'[Full Name], 'Dim Employee'[Date Of Birth], 'Work Date'[Date Id], 'Work Date'[Date], "Hours Worked", [Hours Worked])</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Employee_Id">
+        <DataField>Dim Employee[Employee Id]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Full_Name">
+        <DataField>Dim Employee[Full Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date_Of_Birth">
+        <DataField>Dim Employee[Date Of Birth]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date_Id">
+        <DataField>Work Date[Date Id]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Date">
+        <DataField>Work Date[Date]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Hours_Worked">
+        <DataField>[Hours Worked]</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

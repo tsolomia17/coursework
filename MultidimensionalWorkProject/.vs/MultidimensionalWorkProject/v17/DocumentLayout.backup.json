@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BigDB\\MultidimensionalWorkProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Work DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|solutionrelative:MultidimensionalWorkProject\\Work DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|solutionrelative:MultidimensionalWorkProject\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|solutionrelative:MultidimensionalWorkProject\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|solutionrelative:MultidimensionalWorkProject\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Position.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DD90631E-0797-48F6-879F-B0C22A300728}|MultidimensionalWorkProject\\MultidimensionalWorkProject.dwproj|solutionrelative:MultidimensionalWorkProject\\Dim Position.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Department.dim [Design]",
+              "DocumentMoniker": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Department.dim",
+              "RelativeDocumentMoniker": "MultidimensionalWorkProject\\Dim Department.dim",
+              "ToolTip": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Department.dim [Design]",
+              "RelativeToolTip": "MultidimensionalWorkProject\\Dim Department.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T18:31:42.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Employee.dim [Design]",
+              "DocumentMoniker": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Employee.dim",
+              "RelativeDocumentMoniker": "MultidimensionalWorkProject\\Dim Employee.dim",
+              "ToolTip": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Employee.dim [Design]",
+              "RelativeToolTip": "MultidimensionalWorkProject\\Dim Employee.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T18:31:32.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Position.dim [Design]",
+              "DocumentMoniker": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Position.dim",
+              "RelativeDocumentMoniker": "MultidimensionalWorkProject\\Dim Position.dim",
+              "ToolTip": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Position.dim [Design]",
+              "RelativeToolTip": "MultidimensionalWorkProject\\Dim Position.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T18:31:22.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Work DW.cube [Design]",
+              "DocumentMoniker": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Work DW.cube",
+              "RelativeDocumentMoniker": "MultidimensionalWorkProject\\Work DW.cube",
+              "ToolTip": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Work DW.cube [Design]",
+              "RelativeToolTip": "MultidimensionalWorkProject\\Work DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T18:31:19.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Date.dim",
+              "RelativeDocumentMoniker": "MultidimensionalWorkProject\\Dim Date.dim",
+              "ToolTip": "E:\\BigDB\\MultidimensionalWorkProject\\MultidimensionalWorkProject\\Dim Date.dim [Design]",
+              "RelativeToolTip": "MultidimensionalWorkProject\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T18:30:57.832Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

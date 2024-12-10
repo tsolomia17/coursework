@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Work DW</Id>
+            <Name>Work DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6B/FlT+fQ0KEUEC+zRlQjgAAAAAQAAAAVwBvAHIAawAgAEQAVwAAABBmAAAAAQAAIAAAAFBenvygFtpkhZJKBCH16jNjYXGMo9NREFy113R/2uCUAAAAAA6AAAAAAgAAIAAAAFAimuy1ZbpOoTDIz46fNQgcci8/4pGE98w14iLuRMxLEAAAAG2BVbyjqrJQNCTjtCbV345AAAAAXbfeJmGB3kceRjofXnLn1KA4b2HyoElNyN2S35GsCY4jnKHahXonBSWeLf1KoixG0GnrINc6GuCAp+/azJdd2Q==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Work DW</Id>
+            <Name>Work DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6B/FlT+fQ0KEUEC+zRlQjgAAAAAQAAAAVwBvAHIAawAgAEQAVwAAABBmAAAAAQAAIAAAAFosmWrXnZEv7F88i1cZtS5rfuHIOdf++ASodMFMcKxHAAAAAA6AAAAAAgAAIAAAANyAF+gMB3cGAVX6pAkeq5yCbyYDUSr7Jp0lj8hV3VTlEAAAAO6yzo7t+W5QZ7Nx0MbklatAAAAAMYoUc0oeCNXf607o4JQHVyUMkW9Fhqywj8D1LBBqti4hmcH5Uetp+3UMOxYO2M8d5RX8QBfzrNyOj2IfgLrKMg==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>MultidimensionalWorkProject</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

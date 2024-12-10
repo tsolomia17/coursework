@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet5">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('Dim Employee'[Employee Id], 'Dim Employee'[Full Name], 'Dim Employee'[Place Of Birth], 'Dim Position'[Position Id], 'Dim Position'[Name], FILTER(VALUES('Dim Employee'[Place Of Birth]), ('Dim Employee'[Place Of Birth] = "United States")))</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Employee Id</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Employee Id]</HierarchyUniqueName>
+                    <LevelName>Employee Id</LevelName>
+                    <UniqueName>[Dim Employee].[Employee Id].[Employee Id]</UniqueName>
+                  </ID>
+                  <ItemCaption>Employee Id</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Full Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Full Name]</HierarchyUniqueName>
+                    <LevelName>Full Name</LevelName>
+                    <UniqueName>[Dim Employee].[Full Name].[Full Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Full Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Employee</DimensionName>
+                    <HierarchyName>Place Of Birth</HierarchyName>
+                    <HierarchyUniqueName>[Dim Employee].[Place Of Birth]</HierarchyUniqueName>
+                    <LevelName>Place Of Birth</LevelName>
+                    <UniqueName>[Dim Employee].[Place Of Birth].[Place Of Birth]</UniqueName>
+                  </ID>
+                  <ItemCaption>Place Of Birth</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Position</DimensionName>
+                    <HierarchyName>Position Id</HierarchyName>
+                    <HierarchyUniqueName>[Dim Position].[Position Id]</HierarchyUniqueName>
+                    <LevelName>Position Id</LevelName>
+                    <UniqueName>[Dim Position].[Position Id].[Position Id]</UniqueName>
+                  </ID>
+                  <ItemCaption>Position Id</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Position</DimensionName>
+                    <HierarchyName>Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Position].[Name]</HierarchyUniqueName>
+                    <LevelName>Name</LevelName>
+                    <UniqueName>[Dim Position].[Name].[Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>Work DW</From>
+            <Filter>
+              <FilterItems>
+                <FilterItem>
+                  <HierarchyUniqueName>[Dim Employee].[Place Of Birth]</HierarchyUniqueName>
+                  <Condition xsi:type="EqualTo">
+                    <Members>
+                      <Member>
+                        <MemberUniqueName>[Dim Employee].[Place Of Birth].&amp;[United States]</MemberUniqueName>
+                      </Member>
+                    </Members>
+                  </Condition>
+                </FilterItem>
+              </FilterItems>
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('Dim Employee'[Employee Id], 'Dim Employee'[Full Name], 'Dim Employee'[Place Of Birth], 'Dim Position'[Position Id], 'Dim Position'[Name], FILTER(VALUES('Dim Employee'[Place Of Birth]), ('Dim Employee'[Place Of Birth] = "United States")))</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Employee_Id">
+        <DataField>Dim Employee[Employee Id]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Full_Name">
+        <DataField>Dim Employee[Full Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Place_Of_Birth">
+        <DataField>Dim Employee[Place Of Birth]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Position_Id">
+        <DataField>Dim Position[Position Id]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Name">
+        <DataField>Dim Position[Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
